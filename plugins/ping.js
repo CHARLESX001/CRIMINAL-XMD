@@ -36,8 +36,8 @@ cmd({
     },
     message: {
       contactMessage: {
-        displayName: "PKDRILLER | PK-XMD",
-        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:PKDRILLER | PK-XMD\nORG:PKDRILLER;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
+        displayName: "CHARLES | CRIMINAL-XMD",
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN: CRIMINAL | CRIMINAL-XMD\nORG: CRIMINAL;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
         jpegThumbnail: Buffer.alloc(0)
       }
     }
@@ -46,10 +46,10 @@ cmd({
   // 📢 Forwarded Newsletter + Thumbnail
   const contextInfo = {
     externalAdReply: {
-      title: "⚡ PK-XMD • Ping Command",
+      title: "⚡ CRIMINAL-XMD • Ping Command",
       body: `🕒 ${jtime} | 📅 ${jdate}`,
-      thumbnailUrl: 'https://files.catbox.moe/fgiecg.jpg',
-      sourceUrl: 'https://github.com/mejjar00254/PK-XMD',
+      thumbnailUrl: 'https://files.catbox.moe/o4of0n.jpg',
+      sourceUrl: 'https://github.com/CHARLESX001/CRIMINAL-XMD',
       mediaType: 1,
       renderLargerThumbnail: true,
       showAdAttribution: true
@@ -58,7 +58,7 @@ cmd({
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
       newsletterJid: "120363288304618280@newsletter",
-      newsletterName: "PK-XMD Official"
+      newsletterName: "CRIMINAL-XMD Official"
     }
   };
 
@@ -72,7 +72,7 @@ cmd({
   }, { quoted: fakeContact });
 
   // 💓 Animated Emoji Heartbeat
-  const emojis = ['❤️', '🧡', '💛', '💚', '💙', '💜', '🖤', '🤍'];
+  const emojis = ['❤️', '🧡', '💛', '💚', '🔥', '💜', '🖤', '💙'];
   const sent = await Void.sendMessage(m.chat, {
     text: emojis[0],
     contextInfo
