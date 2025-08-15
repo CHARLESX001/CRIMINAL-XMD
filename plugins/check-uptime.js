@@ -30,11 +30,11 @@ async (conn, mek, m, { from, reply, botNumber, pushname }) => {
         const cpuCores = os.cpus().length;
         const arch = os.arch();
         const nodeVersion = process.version;
-        const botName = pushname || "BOVA-XMD BOT";
+        const botName = pushname || "CRIMINAL-XMD BOT";
         const owner = "nova-xmd";
 
         const status = `
-✨ NOVA XMD ALIVE 🚀
+✨ CRIMINAL XMD ALIVE 🚀
 
 ╔═══[ BOT STATUS ]═══╗
 ┃ 🤖 Name     : ${botName}
@@ -45,7 +45,7 @@ async (conn, mek, m, { from, reply, botNumber, pushname }) => {
 ┃ 🧪 Version  : 1.0.0 BETA
 ╚════════════════════╝
 
-▶️ Stay tuned for more updates!
+🔥 Stay updated!
         `;
 
         const newsletterContext = {
@@ -53,14 +53,14 @@ async (conn, mek, m, { from, reply, botNumber, pushname }) => {
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: "120363382023564830@newsletter",
-                newsletterName: "𝙽𝙾𝚅𝙰-𝚇𝙼𝙳",
+                newsletterJid: "120363351653122969@newsletter",
+                newsletterName: "CRIMINAL XMD",
                 serverMessageId: 143
             }
         };
 
         await conn.sendMessage(from, {
-            image: { url: "https://files.catbox.moe/yu1vaw.jpg" },
+            image: { url: "https://files.catbox.moe/o4of0n.jpg" },
             caption: status,
             contextInfo: newsletterContext
         }, { quoted: mek });
