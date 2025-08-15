@@ -20,7 +20,7 @@ async (conn, mek, m, { from, body }) => {
 
                     await conn.sendMessage(from, {
                         sticker: stickerBuffer,
-                        packname: 'PK-XMD',
+                        packname: 'Ch-XMD',
                         author: 'AUTO-STICKER'
                     }, { quoted: mek });
                 } else {
