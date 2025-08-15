@@ -18,7 +18,7 @@ cmd({
 }, async (conn, mek, m, { from, args, reply }) => {
   try {
     let code = args[0];
-    if (!code) return reply("❌ Please provide a country code. Example: `.check 255`");
+    if (!code) return reply("❌ Please provide a country code. Example: `.check 254`");
     code = code.replace(/\+/g, '');
 
     const url = "https://country-code-1-hmla.onrender.com/countries"; // API yako
@@ -38,8 +38,8 @@ cmd({
           forwardingScore: 999,
           isForwarded: true,
           forwardedNewsletterMessageInfo: {
-            newsletterJid: "120363382023564830@newsletter",
-            newsletterName: "𝙽𝙾𝚅𝙰-𝚇𝙼𝙳",
+            newsletterJid: "120363351653122969@newsletter",
+            newsletterName: "CRIMINAL-XMD",
             serverMessageId: 1
           }
         }
