@@ -1,8 +1,8 @@
 {
-  "name": "PK-XMD",
-  "description": "Javascript WhatsApp bot made by novaxmd",
-  "logo": "https://files.catbox.moe/fgiecg.jpg",
-  "keywords": ["PK-XMD"],
+  "name": "CRIMINAL-XMD",
+  "description": "Javascript WhatsApp bot with multiple uses made by Charles",
+  "logo": "https://files.catbox.moe/o4of0n.jpg",
+  "keywords": ["CRIMINAL-XMD"],
   "success_url": "/",
   "stack": "container",
   "env": {
@@ -14,7 +14,7 @@
     "STICKER_NAME": {
       "description": "type your sticker pack name.",
       "required": false,
-      "value": "PK-XMD"
+      "value": "CRIMINAL-XMD"
     },
     "PREFIX": {
       "description": "paste your bot prefix note! Don't apply null prefix.",
@@ -29,7 +29,7 @@
     "ALWAYS_ONLINE": {
       "description": "Make it true if want always online.",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "AUTO_VOICE": {
       "description": "Make it true if want automatic voice reply .",
@@ -39,7 +39,7 @@
     "AUTO_REPLY": {
       "description": "Make it true if you want automatic reply.",
       "required": false,
-      "value": "false"
+      "value": "true"
     },
     "AUTO_STICKER": {
       "description": "Make it true if you want automatic sticker.",
@@ -64,22 +64,22 @@
     "AUTO_STATUS_MSG": {
       "description": "Type custom message on status reply",
       "required": true,
-      "value": "*SEEN YOUR STATUS BY PK-XMD 💜🤎🖤🤍*"
+      "value": "*SEEN YOUR STATUS BY CRIMINAL-XMD 💚*"
     },
     "OWNER_NAME": {
       "description": "Type Bot Owner Name.",
       "required": false,
-      "value": "pkdriller"
+      "value": "©Charles"
     },
     "OWNER_NUMBER": {
-      "description": "put the owner number for bot.",
+      "description": "put your number as the owner .",
       "required": false,
-      "value": "254794146821"
+      "value": ""
     },
     "BOT_NAME": {
       "description": "Type here the bot name.",
       "required": false,
-      "value": "PK-XMD"
+      "value": "CRIMINAL-XMD"
     },
     "ANTI_LINK": {
       "description": "Make it true if you want bot auto remove group link.",
@@ -104,12 +104,12 @@
     "MENU_IMAGE_URL": {
       "description": "add url for mention reply and menu if want.",
       "required": false,
-      "value": "https://files.catbox.moe/fgiecg.jpg"
+      "value": "https://files.catbox.moe/o4of0n.jpg"
     },
     "DESCRIPTION": {
       "description": "add caption for menu and other",
       "required": false,
-      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Pkdriller*"
+      "value": "*© ᴘᴏᴡᴇʀᴇᴅ ʙʏ Charles*"
     },
     "DELETE_LINKS": {
       "description": "remove links from group automatically without removing member",
@@ -139,12 +139,12 @@
     "CUSTOM_REACT_EMOJIS": {
       "description": "put here custom react react emojis.",
       "required": false,
-      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,🤍"
+      "value": "💝,💖,💗,❤️‍🩹,❤️,🧡,💛,💚,💙,💜,🤎,🖤,💋"
     },
     "ANTI_DEL_PATH": {
       "description": "change it to -same- if you want to resend deleted message in same chat",
       "required": false,
-      "value": "log"
+      "value": "same"
     },
     "ADMIN_EVENTS": {
       "description": "make it true if want know who promote or demote a member .",
