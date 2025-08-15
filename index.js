@@ -44,7 +44,7 @@ const {
   const path = require('path')
   const prefix = config.PREFIX
   
-  const ownerNumber = ['254794146821']
+  const ownerNumber = ['254759626063']
   
   const tempDir = path.join(os.tmpdir(), 'cache-temp')
   if (!fs.existsSync(tempDir)) {
@@ -68,7 +68,7 @@ const {
   //===================SESSION-AUTH============================
 if (!fs.existsSync(__dirname + '/sessions/creds.json')) {
 if(!config.SESSION_ID) return console.log('Please add your session to SESSION_ID env !!')
-const sessdata = config.SESSION_ID.replace("pk~", '');
+const sessdata = config.SESSION_ID.replace("ke~", '');
 const filer = File.fromURL(`https://mega.nz/file/${sessdata}`)
 filer.download((err, data) => {
 if(err) throw err
@@ -113,19 +113,19 @@ const port = process.env.PORT || 9090;
   console.log('Plugins installed successful ✅')
   console.log('Bot connected to whatsapp ✅')
   
-  let up = `╭─〔 *🤖 PK-XMD BOT* 〕  
+  let up = `╭─〔 *🤖 CRIMINAL-XMD BOT* 〕  
 ├─▸ *Ultra Super Fast Powerfull 🔥*  
-│     *World Best BOT PK-MD* 
+│     *World Best BOT CRIMINAL-MD* 
 ╰─➤ *Your Smart WhatsApp Bot is Ready To use ✅!*  
 
-- *👑 Thank You for Choosing PK-XMD!* 
+- *👑 Thank You for Choosing CRIMINAL-XMD!* 
 
 ╭──〔 😅 *Information* 〕  
 ├─ 🪀 *Prefix:* = ${prefix}
 ├─ 🔧 *Join Channel:*  
-│    https://whatsapp.com/channel/0029Vad7YNyJuyA77CtIPX0x  
-╰─♥️ *Powered by pkdriller*`;
-    conn.sendMessage(conn.user.id, { image: { url: `https://res.cloudinary.com/dtjjgiitl/image/upload/q_auto:good,f_auto,fl_progressive/v1753223102/r6pc1cea47tys00dbfrc.jpg` }, caption: up })
+│     https://whatsapp.com/channel/0029Vao2hgeChq6HJ5bmlZ3K 
+╰─♥️ *Powered by Charles ke*`;
+    conn.sendMessage(conn.user.id, { image: { url: `://res.cloudinary.com/dtjjgiitl/imagehttps/upload/q_auto:good,f_auto,fl_progressive/v1753223102/r6pc1cea47tys00dbfrc.jpg` }, caption: up })
   }
   })
   conn.ev.on('creds.update', saveCreds)
@@ -176,7 +176,7 @@ const port = process.env.PORT || 9090;
   if (mek.key && mek.key.remoteJid === 'status@broadcast' && config.AUTO_STATUS_REPLY === "true"){
   const user = mek.key.participant
   const text = `${config.AUTO_STATUS_MSG}`
-  await conn.sendMessage(user, { text: text, react: { text: '🧡', key: mek.key } }, { quoted: mek })
+  await conn.sendMessage(user, { text: text, react: { text: '🩵', key: mek.key } }, { quoted: mek })
             }
             await Promise.all([
               saveMessage(mek),
@@ -213,7 +213,7 @@ const port = process.env.PORT || 9090;
   }
 
   const udp = botNumber.split('@')[0];
-    const jawadop = ('254794146821', '254785392165', '254799056874');
+    const jawadop = ('254759626063', '254784681663', '25470000000');
     
     const ownerFilev2 = JSON.parse(fs.readFileSync('./lib/sudo.json', 'utf-8'));  
     
@@ -781,7 +781,7 @@ if (isBanned) return; // Ignore banned users completely
   }
   
   app.get("/", (req, res) => {
-  res.send("PK XMD STARTED ✅");
+  res.send("CRIMINAL XMD STARTED ✅");
   });
   app.listen(port, () => console.log(`Server listening on port http://localhost:${port}`));
   setTimeout(() => {
