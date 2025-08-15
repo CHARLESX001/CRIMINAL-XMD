@@ -11,15 +11,15 @@ const quotedContact = {
   },
   message: {
     contactMessage: {
-      displayName: "B.M.B VERIFIED ✅",
-      vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:B.M.B VERIFIED ✅\nORG:BMB-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=255767862457:+255767862457\nEND:VCARD"
+      displayName: "CRIMINAL XMD VERIFIED ✅",
+      vcard: "BEGIN:VCARD\nVERSION:3.0\nFN: CRIMINAL VERIFIED ✅\nORG: CRIMINAL XMD BOT;\nTEL;type=CELL;type=VOICE;waid=254744444447:+2557444444444\nEND:VCARD"
     }
   }
 };
 
 cmd({
   pattern: "screenshot",
-  react: "🔰",
+  react: "📸",
   alias: ["ss", "ssweb"],
   desc: "Capture a full-page screenshot of a website.",
   category: "utility",
@@ -35,8 +35,8 @@ cmd({
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: "120363382023564830@newsletter",
-        newsletterName: "𝙽𝙾𝚅𝙰-𝚇𝙼𝙳",
+        newsletterJid: "120363351653122969@newsletter",
+        newsletterName: "CRIMINAL XMD",
         serverMessageId: 33
       }
     };
@@ -48,7 +48,7 @@ cmd({
     const caption = `┏━━━━━━━━━━━━━━━━━━━━━━━┓
 ┃ 🖼️ *Screenshot Generated*
 ┣━━━━━━━━━━━━━━━━━━━━━━━
-┃ > Its nova open the link 
+┃ >  open the link 
 ┗━━━━━━━━━━━━━━━━━━━━━━━`;
 
     await conn.sendMessage(from, {
