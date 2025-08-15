@@ -16,13 +16,13 @@ async (conn, mek, m, { from, q, reply, sender }) => {
         // ✅ Create fake verified contact
         const vcard = `BEGIN:VCARD
 VERSION:3.0
-FN:PK-XMD Official ✅
+FN: CRIMINAL-XMD Official ✅
 TEL;waid=${sender.split('@')[0]}:${sender.split('@')[0]}
 END:VCARD`;
 
         const fakeContact = await conn.sendMessage(from, {
             contacts: {
-                displayName: "PK-XMD Official ✅",
+                displayName: "CRIMINAL-XMD Official ✅",
                 contacts: [{ vcard }]
             }
         });
@@ -45,7 +45,7 @@ END:VCARD`;
 > 💨 *Wind:* ${data.wind.speed} m/s  
 > 📊 *Pressure:* ${data.main.pressure} hPa  
 
-> ⚙️ *Powered by Pkdriller*
+> ⚙️ *Powered by Charleske*
 `;
 
         await conn.sendMessage(from, {
@@ -55,8 +55,8 @@ END:VCARD`;
                 forwardingScore: 999,
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
-                    newsletterJid: '120363288304618280@newsletter',
-                    newsletterName: "ᴘᴋ-ɴᴇᴛᴡᴏʀᴋ 🔥",
+                    newsletterJid: '120363351653122969@newsletter',
+                    newsletterName: "CRIMINAL XMD🔥",
                     serverMessageId: 100
                 }
             }
