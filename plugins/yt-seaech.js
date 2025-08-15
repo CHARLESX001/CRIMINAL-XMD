@@ -10,7 +10,7 @@ const { getBuffer, getGroupAdmins, getRandom, h2k, isUrl, Json, runtime, sleep, 
 cmd({
     pattern: "yts",
     alias: ["ytsearch"],
-    use: '.yts jawad',
+    use: '.yts Charles',
     react: "🔎",
     desc: "Search and get details from youtube.",
     category: "search",
@@ -39,8 +39,8 @@ try{
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: "120363382023564830@newsletter",
-        newsletterName: "𝙱.𝙼.𝙱-𝚇𝙼𝙳",
+        newsletterJid: "120363351653122969@newsletter",
+        newsletterName: "CRIMINAL XMD",
         serverMessageId: 1
       }
     }
