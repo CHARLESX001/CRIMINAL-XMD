@@ -4,7 +4,7 @@ const os = require("os");
 const { runtime } = require('../lib/functions');
 
 cmd({
-    pattern: "menu2",
+    pattern: "menu",
     desc: "Show interactive menu system",
     category: "menu",
     react: "⚡",
@@ -48,7 +48,7 @@ cmd({
             forwardingScore: 999,
             isForwarded: true,
             forwardedNewsletterMessageInfo: {
-                newsletterJid: '120363416335506023@newsletter',
+                newsletterJid: '@newsletter',
                 newsletterName: config.OWNER_NAME,
                 serverMessageId: 143
             }
@@ -345,7 +345,7 @@ cmd({
 ┃★╭──────────────
 ┃★│ 🛠️ *Controls*
 ┃★│ • menu
-┃★│ • menu2
+┃★│ • menu1
 ┃★│ • restart
 ┃★╰──────────────
 ╰━━━━━━━━━━━━━━━┈⊷
