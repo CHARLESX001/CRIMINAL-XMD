@@ -20,12 +20,14 @@ cmd({
     react: "🌟",
     filename: __filename
 },
-async (conn, mek, m, { from, sender, pushname }) => {
+async (conn, mek, m, { from, sender }) => {
     try {
-        let totalCommands = Object.keys(commands).length;
-        let cmdList = Object.keys(commands)
-            .map(cmdName => `★ .*${cmdName}*`)
+        // Extract actual command names from command objects
+        let cmdList = commands
+            .map(cmdObj => `★ .*${cmdObj.pattern}*`)
             .join('\n');
+
+        let totalCommands = commands.length;
 
         let menuText = `
 ┌───〔 *CRIMINAL-XMD* 〕───┐
