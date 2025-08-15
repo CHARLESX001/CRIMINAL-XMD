@@ -42,7 +42,7 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
             teks += `${randomEmoji} @${mem.id.split('@')[0]}\n`;
         }
 
-        teks += "└──★💙 PK ┃ XMD 💙★──";
+        teks += "└──★💙 CRIMINAL ┃ XMD 💙★──";
 
         let fakeContact = {
             key: {
@@ -52,8 +52,8 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
             },
             message: {
                 contactMessage: {
-                    displayName: 'PKDRILLER ✅',
-                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:PKDRILLER ✅\nORG:PK-XMD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
+                    displayName: 'CRIMINAL ✅',
+                    vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:CHARLES ✅\nORG: CRIMINAL-XMD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
                     jpegThumbnail: null
                 }
             }
@@ -65,9 +65,9 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
             contextInfo: {
                 externalAdReply: {
                     title: "GROUP PINGER",
-                    body: "Powered by Pkdriller",
-                    thumbnailUrl: "https://files.catbox.moe/fgiecg.jpg",
-                    sourceUrl: "https://github.com/pkdriller",
+                    body: "Powered by Charles",
+                    thumbnailUrl: "https://files.catbox.moe/o4of0n.jpg",
+                    sourceUrl: "https://github.com/CHARLESX001",
                     mediaType: 1,
                     renderLargerThumbnail: false,
                     showAdAttribution: true
@@ -76,7 +76,7 @@ async (conn, mek, m, { from, participants, reply, isGroup, senderNumber, groupAd
                 isForwarded: true,
                 forwardedNewsletterMessageInfo: {
                     newsletterJid: "120363288304618280@newsletter",
-                    newsletterName: "PK-XMD Bot Updates",
+                    newsletterName: "CRIMINAL-XMD Bot Updates",
                     serverMessageId: "",
                 }
             }
