@@ -4,8 +4,8 @@ const os = require("os");
 const { runtime } = require('../lib/functions');
 
 cmd({
-    pattern: "menu1",
-    desc: "Show interactive menu system",
+    pattern: "menu",
+    desc: "Show cmds",
     category: "menu",
     react: "⚡",
     filename: __filename
