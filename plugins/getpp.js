@@ -29,7 +29,7 @@ async (conn, mek, m, { from, sender, reply, isGroup }) => {
     try {
       imageUrl = await conn.profilePictureUrl(targetJid, 'image');
     } catch {
-      imageUrl = "https://files.catbox.moe/ntqtnt.jpg";
+      imageUrl = ".jpg";
     }
 
     const fakeVCard = {
@@ -40,8 +40,8 @@ async (conn, mek, m, { from, sender, reply, isGroup }) => {
       },
       message: {
         contactMessage: {
-          displayName: "PKDRILLER ✅",
-          vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:PKDRILLER ✅\nORG:PK-XMD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD",
+          displayName: "CRIMINAL XMD✅",
+          vcard: "BEGIN:VCARD\nVERSION:3.0\nFN: CRIMINAL XMD✅\nORG:CRIMINAL-XMD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD",
           jpegThumbnail: Buffer.from([])
         }
       }
@@ -55,8 +55,8 @@ async (conn, mek, m, { from, sender, reply, isGroup }) => {
         forwardingScore: 5,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterName: "PK-XMD",
-          newsletterJid: "120363288304618280@newsletter"
+          newsletterName: "CRIMINAL-XMD",
+          newsletterJid: "1@newsletter"
         }
       }
     }, { quoted: fakeVCard });
