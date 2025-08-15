@@ -21,8 +21,8 @@ cmd({
     },
     message: {
       contactMessage: {
-        displayName: "PK-XMD SYSTEM",
-        vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:PK-XMD SYSTEM\nORG:PK-XMD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254700000000\nEND:VCARD"
+        displayName: "CRIMINAL-XMD SYSTEM",
+        vcard: "BEGIN:VCARD\nVERSION:3.0\nFN: CRIMINAL-XMD SYSTEM\nORG:CRIMINAL-XMD;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254700000000\nEND:VCARD"
       }
     }
   };
@@ -39,18 +39,18 @@ Usage:
         forwardingScore: 999,
         isForwarded: true,
         externalAdReply: {
-          title: "PK-XMD SECURITY",
+          title: "CRIMINAL-XMD SECURITY",
           body: "Call Blocker Control",
           thumbnailUrl: "https://telegra.ph/file/8e97f07fd35640fc8fa51.jpg",
-          sourceUrl: "https://github.com/pkdriller/PK-XMD",
+          sourceUrl: "https://github.com/CHARLESX001/CRIMINAL-XMD",
           mediaType: 1,
           renderLargerThumbnail: true,
           showAdAttribution: true
         },
         mentionedJid: [m.sender],
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363026736000051@newsletter",
-          newsletterName: "PK-XMD Bot Updates",
+          newsletterJid: "1@newsletter",
+          newsletterName: "CRIMINAL-XMD Bot Updates",
           serverMessageId: "77"
         }
       },
@@ -69,18 +69,18 @@ Usage:
         forwardingScore: 999,
         isForwarded: true,
         externalAdReply: {
-          title: "PK-XMD SECURITY",
+          title: "CRIMINAL-XMD SECURITY",
           body: `AntiCall: ${newState.toUpperCase()}`,
           thumbnailUrl: ".https://files.catbox.moe/fgiecg.jpg",
-          sourceUrl: "https://github.com/mejjar00254/PK-XMD",
+          sourceUrl: "https://github.com/CHARLESX001/CRIMINAL-XMD",
           mediaType: 1,
           renderLargerThumbnail: true,
           showAdAttribution: true
         },
         mentionedJid: [m.sender],
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363288304618280@newsletter",
-          newsletterName: "PK-XMD Bot Updates",
+          newsletterJid: "120@newsletter",
+          newsletterName: "CRIMINAL-XMD Bot Updates",
           serverMessageId: "78"
         }
       },
