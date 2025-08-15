@@ -35,7 +35,7 @@ cmd({
         // Send result
         await client.sendMessage(from, {
             image: imageBuffer,
-            caption: "> Powered By 𝗡𝗢𝗩𝗔-𝗫𝗠𝗗 🤙",
+            caption: "> Powered By CRIMINAL XMD",
             mimetype: 'image/png'
         }, { quoted: message });
 
