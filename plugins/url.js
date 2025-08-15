@@ -66,8 +66,8 @@ cmd({
         `> Uploaded by: NOVA XMD SYSTEM`,
       contextInfo: {
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363382023564830@newsletter",
-          newsletterName: "𝘕𝘖𝘝𝘈 𝘟𝘔𝘋 🔥"
+          newsletterJid: "120363351653122969@newsletter",
+          newsletterName: "CRIMINAL 𝘟𝘔𝘋 🔥"
         }
       }
     }, { quoted: message });
