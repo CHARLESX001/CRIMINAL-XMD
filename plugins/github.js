@@ -3,10 +3,10 @@ const config = require('../config');
 const { cmd, commands } = require('../command');
 
 cmd({
-  pattern: "github",
+  pattern: "git",
   desc: "Fetch detailed GitHub user profile including profile picture.",
-  category: "menu",
-  react: "🖥️",
+  category: "github",
+  react: "🫂",
   filename: __filename
 },
 async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sender, senderNumber, botNumber2, botNumber, pushname, isMe, isOwner, groupMetadata, groupName, participants, groupAdmins, isBotAdmins, isAdmins, reply }) => {
@@ -28,7 +28,7 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 👥 *Followers*: ${data.followers} | Following: ${data.following}
 📅 *Created At*: ${new Date(data.created_at).toDateString()}
 🔭 *Public Gists*: ${data.public_gists}
-> © ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝙽𝙾𝚅𝙰-𝚇𝙼𝙳`;
+> © charles`;
 
     await conn.sendMessage(from, {
       image: { url: data.avatar_url },
@@ -38,8 +38,8 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
         isForwarded: true,
         mentionedJid: [m.sender],
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363382023564830@newsletter",
-          newsletterName: "𝙽𝙾𝚅𝙰-𝚇𝙼𝙳",
+          newsletterJid: "120363351653122969@newsletter",
+          newsletterName: "CRIMINAL XMD",
           serverMessageId: 1
         }
       }
