@@ -10,8 +10,8 @@ const quotedContact = {
   },
   message: {
     contactMessage: {
-      displayName: "B.M.B VERIFIED ✅",
-      vcard: "BEGIN:VCARD\nVERSION:3.0\nFN:B.M.B VERIFIED ✅\nORG:BMB-TECH BOT;\nTEL;type=CELL;type=VOICE;waid=255767862457:+255 767 862457\nEND:VCARD"
+      displayName: "CRIMINAL VERIFIED ✅",
+      vcard: "BEGIN:VCARD\nVERSION:3.0\nFN: CRIMINAL VERIFIED ✅\nORG: CRIMINAL BOT;\nTEL;type=CELL;type=VOICE;waid=25471111111:+254 72222222\nEND:VCARD"
     }
   }
 };
@@ -44,7 +44,7 @@ cmd({
     const filenameHeader = headCheck.headers.get("content-disposition");
     const fileName = filenameHeader ? filenameHeader.match(/filename="?(.+?)"?$/)?.[1] : `${repo}.zip`;
 
-    await reply(`╭───〔 *📦 NOVA XMD GIT CLONE* 〕───⬣
+    await reply(`╭───〔 *📦 CRIMINAL XMD GIT CLONE* 〕───⬣
 │
 │ 📁 *User:* ${user}
 │ 📦 *Repo:* ${repo}
@@ -61,8 +61,8 @@ cmd({
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: "120363382023564830@newsletter",
-          newsletterName: "𝗡𝗢𝗩𝗔-𝗫𝗠𝗗 GITHUB CLONE 🎃",
+          newsletterJid: "120363351653122969@newsletter",
+          newsletterName: "CRIMINAL XMD GITHUB CLONE 🎃",
           serverMessageId: 143
         }
       }
