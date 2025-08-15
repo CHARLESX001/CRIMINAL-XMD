@@ -2,7 +2,7 @@ const axios = require("axios");
 const { cmd } = require("../command");
 
 cmd({
-  pattern: "srepo",
+  pattern: "repo",
   desc: "Fetch information about a GitHub repository.",
   category: "other",
   react: "🍃",
@@ -25,7 +25,7 @@ cmd({
     responseMsg += `🍴 *Forks*: ${data.forks_count}\n`;
     responseMsg += `👤 *Owner*: ${data.owner.login}\n`;
     responseMsg += `📅 *Created At*: ${new Date(data.created_at).toLocaleDateString()}\n`;
-    responseMsg += `\n> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ RAHEEM-XMD-3*`;
+    responseMsg += `\n> *©CRIMINAL XMD*`;
 
     await conn.sendMessage(from, { text: responseMsg }, { quoted: m });
   } catch (error) {
