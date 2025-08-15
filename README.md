@@ -19,5 +19,5 @@ Links*
 
 *Other Options*
 
-<img src="https://img.shields.io/badge/REPORT%20ERROR-red?style=for-the-badge&logo=github" alt="Report Error"></a>
+<img src="https://img.shields.io/badge/REPORT%20ERROR-red?style=for-the-badge&logo=github" alt="+254759626063"></a>
 <a href="https://whatsapp.com/channel/your-channel-link" target="_blank"><img src="https://img.shields.io/badge/FOLLOW%20WHATSAPP%20CHANNEL-green?style=for-the-badge&logo=whatsapp" alt="Follow WhatsApp Channel"></a>
