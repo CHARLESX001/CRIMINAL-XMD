@@ -757,7 +757,19 @@ if (isBanned) return; // Ignore banned users completely
                 { quoted },
             );
         };
-
+    // ========== AUTO BIO ==========
+    if (config.AUTO_BIO === 'true') {
+      setInterval(() => {
+        let runtimeText = runtime(process.uptime());
+        let date = new Date().toLocaleString('en-US', { timeZone: 'Africa/Nairobi' });
+        let bio = `🤖 CRIMINAL-XMD | Running: ${runtimeText} | ${date}`;
+        conn.setStatus(bio).then(() => {
+          console.log("[AUTO BIO] Bio updated:", bio);
+        }).catch(err => {
+          console.error("[AUTO BIO ERROR]", err);
+        });
+      }, 60 * 1000); // every 1 minute
+						}
         // Status aka brio
         conn.setStatus = status => {
             conn.query({
