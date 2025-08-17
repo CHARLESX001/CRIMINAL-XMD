@@ -121,7 +121,7 @@ cmd({
 
     await conn.sendMessage(from, {
       video: { url: downloadLink },
-      caption: `> Powered By Pkdriller`
+      caption: `> Powered By Criminal xmd`
     }, { quoted: mek });
 
     await conn.sendMessage(from, { react: { text: '✅', key: m.key } });
