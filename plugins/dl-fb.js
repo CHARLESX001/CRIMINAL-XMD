@@ -3,8 +3,8 @@ const { cmd } = require("../command");
 
 // Facebook Downloader v1 (basic)
 cmd({
-  pattern: "fb2",
-  alias: ["facebook2", "fbvideo2"],
+  pattern: "fb",
+  alias: ["facebook", "fbvideo"],
   react: '📥',
   desc: "Download videos from Facebook (Basic API)",
   category: "download",
@@ -34,7 +34,7 @@ cmd({
 
     await conn.sendMessage(from, {
       video: { url: downloadLink },
-      caption: `> Powered By pkdriller 💙`
+      caption: `> Powered By CRIMINAL XMD⚡`
     }, { quoted: mek });
 
     await conn.sendMessage(from, { react: { text: '✅', key: m.key } });
@@ -77,7 +77,7 @@ cmd({
 
     await conn.sendMessage(from, {
       video: { url: downloadLink },
-      caption: `> Powered By Pkdriller `
+      caption: `> Powered By CRIMINAL XMD `
     }, { quoted: mek });
 
     await conn.sendMessage(from, { react: { text: '✅', key: m.key } });
