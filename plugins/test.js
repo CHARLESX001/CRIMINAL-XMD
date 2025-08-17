@@ -36,8 +36,8 @@ cmd({
     },
     message: {
       contactMessage: {
-        displayName: "PKDRILLER | PK-XMD",
-        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:PKDRILLER | PK-XMD\nORG:PKDRILLER;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
+        displayName: "CRIMINAL | CRIMINAL-XMD",
+        vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:CHARLES | CRIMINAL-XMD\nORG:PKDRILLER;\nTEL;type=CELL;type=VOICE;waid=254700000000:+254 700 000000\nEND:VCARD`,
         jpegThumbnail: Buffer.alloc(0)
       }
     }
@@ -46,10 +46,10 @@ cmd({
   // 📢 Context info with newsletter + thumbnail
   const contextInfo = {
     externalAdReply: {
-      title: "🌍 PK-XMD • Test Command",
+      title: "🌍 CRIMINAL-XMD • Test Command",
       body: `🕒 ${jtime} | 📅 ${jdate}`,
       thumbnailUrl: 'https://files.catbox.moe/fgiecg.jpg',
-      sourceUrl: 'https://github.com/mejjar00254/PK-XMD',
+      sourceUrl: 'https://github.com/CHARLESX001/CRIMINAL-XMD',
       mediaType: 1,
       renderLargerThumbnail: true,
       showAdAttribution: true
@@ -57,8 +57,8 @@ cmd({
     forwardingScore: 999,
     isForwarded: true,
     forwardedNewsletterMessageInfo: {
-      newsletterJid: "120363288304618280@newsletter",
-      newsletterName: "PK-XMD Official"
+      newsletterJid: "120363351653122969@newsletter",
+      newsletterName: "CRIMINAL-XMD Official"
     }
   };
 
