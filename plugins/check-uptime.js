@@ -39,7 +39,7 @@ async (conn, mek, m, { from, reply, botNumber, pushname }) => {
 ╔═══[ BOT STATUS ]═══╗
 ┃ 🤖 Name     : ${botName}
 ┃ 🆔 Bot ID   : @${botNumber.replace(/@.+/, "")}
-┃ 👑 Owner    : ${owner}
+┃ 
 ┃ ⏳ Uptime   : ${fancyUptime(process.uptime())}
 ┃ 🟢 Node.js  : ${nodeVersion}
 ┃ 🧪 Version  : 1.0.0 BETA
