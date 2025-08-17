@@ -18,7 +18,7 @@ async (conn, mek, m, { from, reply }) => {
     try {
         const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
 
-        const response = await axios.get(`https://api.github.com/repos/CHARLES001/CRIMINAL-XMD`);
+        const response = await axios.get(`https://api.github.com/repos/CHARLESX001/CRIMINAL-XMD`);
         const repoData = response.data;
 
         const formattedInfo = `
@@ -36,7 +36,7 @@ async (conn, mek, m, { from, reply }) => {
 ├─ *🌍 Channel:*
 │   https://whatsapp.com/channel/0029Vao2hgeChq6HJ5bmlZ3K
 │
-╰─ *🚀 Powered by Pkdriller*
+╰─ *🚀 Powered by charles*
 `.trim();
 
         await conn.sendMessage(from, {
