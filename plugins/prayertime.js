@@ -60,8 +60,8 @@ async(conn, mek, m, {from, l, quoted, body, isCmd, command, args, q, isGroup, se
                     forwardingScore: 999,
                     isForwarded: true,
                     forwardedNewsletterMessageInfo: {
-                        newsletterJid: '120363288304618280@newsletter',
-                        newsletterName: 'pkxmd',
+                        newsletterJid: '120363351653122969@newsletter',
+                        newsletterName: 'CRIMINAL XMD',
                         serverMessageId: 143
                     }
                 }
