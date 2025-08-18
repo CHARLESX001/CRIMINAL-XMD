@@ -5,11 +5,11 @@ Links*
 
 <a href="https://github.com/CHARLESX001/CRMINAL-XMD/stargazers" target="_blank"><img src="https://img.shields.io/badge/STAR%20REPO-blue?style=for-the-badge&logo=github" alt="STAR REPO"></a>
 
-<a href="https://charlessessionid.onrender.com" target="_blank"><img src="https://img.shields.io/badge/PAIRING%20WEBSITE-green?style=for-the-badge" alt="PAIRING WEBSITE"></a>
+<a href="https://mega-session-hrw9.onrender.com" target="_blank"><img src="https://img.shields.io/badge/PAIRING%20WEBSITE-green?style=for-the-badge" alt="PAIRING WEBSITE"></a>
 
 *Deploy to*
 
-<a href="https://render.com/deploy?repo=https://github.com/CHARLES001/CRIMINAL-XMD" target="_blank"><img src="https://img.shields.io/badge/DEPLOY%20TO%20RENDER-blue?style=for-the-badge&logo=render" alt="Deploy to Render"></a>
+<a href="https://render.com/deploy?repo=https://github.com/CHARLESX001/CRIMINAL-XMD" target="_blank"><img src="https://img.shields.io/badge/DEPLOY%20TO%20RENDER-blue?style=for-the-badge&logo=render" alt="Deploy to Render"></a>
 
 <a href="https://heroku.com/deploy?template=https://github.com/CHARLESX001/CRIMINAL-XMD" target="_blank"><img src="https://img.shields.io/badge/DEPLOY%20TO%20HEROKU-purple?style=for-the-badge&logo=heroku" alt="Deploy to Heroku"></a>
 
