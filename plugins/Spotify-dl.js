@@ -2,7 +2,7 @@ const { cmd } = require('../command');
 const axios = require('axios');
 
 cmd({
-    pattern: "sptdl",
+    pattern: "spoty",
     alias: ["spotifydl", "spotidown"],
     desc: "Download Spotify music as MP3",
     category: "downloader",
@@ -45,8 +45,8 @@ async (conn, mek, m, { from, args, q, reply, pushname }) => {
 🎶 *Type:* ${type}
 ⏱️ *Duration:* ${duration}
 
-> *DOWNLOADED BY DML-MD*
-> *© CREATED BY DML*
+> *DOWNLOADED BY CRIMINAL XMD*
+> *© CREATED BY ®Charles*
 `.trim();
 
         // Send cover image with track info
