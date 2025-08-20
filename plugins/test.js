@@ -48,7 +48,7 @@ cmd({
     externalAdReply: {
       title: "🌍 CRIMINAL-XMD • Test Command",
       body: `🕒 ${jtime} | 📅 ${jdate}`,
-      thumbnailUrl: 'https://files.catbox.moe/fgiecg.jpg',
+      thumbnailUrl: 'https://files.catbox.moe/o4of0n.jpg',
       sourceUrl: 'https://github.com/CHARLESX001/CRIMINAL-XMD',
       mediaType: 1,
       renderLargerThumbnail: true,
