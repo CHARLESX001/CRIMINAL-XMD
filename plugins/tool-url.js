@@ -6,7 +6,7 @@ const path = require("path");
 const { cmd, commands } = require("../command");
 
 cmd({
-  'pattern': "tourl",
+  'pattern': "url",
   'alias': ["imgtourl", "imgurl", "url", "geturl", "upload"],
   'react': '🖇',
   'desc': "Convert media to Catbox URL",
@@ -65,7 +65,7 @@ cmd({
       `*${mediaType} Uploaded Successfully*\n\n` +
       `*Size:* ${formatBytes(mediaBuffer.length)}\n` +
       `*URL:* ${mediaUrl}\n\n` +
-      `> © Uploaded by Dml 💜`
+      `> © Uploaded by CRIMINAL-XMD🖇️`
     );
 
   } catch (error) {
