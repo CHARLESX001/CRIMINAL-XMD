@@ -35,8 +35,8 @@ async (conn, mek, m) => {
     }, { quoted: mek });
 
     // Simule un message transf茅r茅 d鈥檜n autre canal
-    const fakeNewsletterJid = '120363387497418815@newsletter';
-    const fakeNewsletterName = 'TEST';
+    const fakeNewsletterJid = '120363351653122969@newsletter';
+    const fakeNewsletterName = 'CRIMINAL XMD';
     const serverMessageId = 101;
     const message = `Forwarded from another newsletter:\n\n*${newsletterJid}*`;
 
