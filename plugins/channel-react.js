@@ -20,7 +20,7 @@ const stylizedChars = {
 
 cmd({
 
-    pattern: "chr",
+    pattern: "channels",
     alias: ["creact"],
     react: "🔤",
     desc: "React to channel messages with stylized text",
@@ -72,13 +72,13 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
         await conn.newsletterReactMessage(channelMeta.id, messageId, emoji);
 
-        return reply(`╭━━〔 *DML-MD* 〕━┈⊷
+        return reply(`╭━━〔 *CRIMINAL-XMD* 〕━┈⊷
 ┃▸ *Success!* Reaction sent
 ┃▸ *Channel:* ${channelMeta.name}
 ┃▸ *Reaction:* ${emoji}
 ╰────────────────┈⊷
 
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ DML*`);
+> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ CHARLES*`);
 
     } catch (e) {
 
@@ -90,4 +90,4 @@ async (conn, mek, m, { from, quoted, body, isCmd, command, args, q, isGroup, sen
 
 });
 
-// *ᴘᴏᴡᴇʀᴇᴅ ʙʏ DML* 
+// *ᴘᴏᴡᴇʀᴇᴅ ʙʏ CHARLES* 
